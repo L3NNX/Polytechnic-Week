@@ -37,6 +37,8 @@ app.use('/api/sports', sportsRouter);
 app.use('/api/points', pointsRouter);
 app.use('/api/students', studentRoutes);
 
+
+
 app.listen(PORT, () => {
   console.log(`Server is running on port: ${PORT}`);
 });
